@@ -1,0 +1,38 @@
+@import url('https:// fonts.googleapis.com/css?family=Hind+Vadodara:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Hind Vadodara', sans-serif;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+body{
+  margin: 0px !important;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+}
+
+::-webkit-scrollbar{
+  width: 40px;
+  height: 80px;
+}
+
+::-webkit-scrollbar-track{
+  background-color: #c4dcc3;
+}
+
+::-webkit-scrollbar-thumb{
+  background-color: #f7faf7;
+  border-radius: 6px;
+}
+
+::-webkit-scrollbar-thumb:hover{
+  background-color: #e8f1e7;
+}
+
+
