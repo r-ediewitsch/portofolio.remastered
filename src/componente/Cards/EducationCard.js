@@ -3,7 +3,7 @@ import styled from "styled-components";
 import { education } from "../../data/const";
 
 const Card = styled.div`
-    width: 700px;
+    width: 680px;
     height: 135px;
     background-color: ${({theme}) => theme.card};
     cursor: pointer;
@@ -11,13 +11,13 @@ const Card = styled.div`
     box-shadow: 0 0 2px 2px rgba(0,0,0,0.4);
     overflow: hidden;
     transition: all 0.5s ease-in-out;
-    padding: 26px 20px;
+    padding: 24px 20px;
     display: flex;
     flex-direction: column;
     gap: 14px;
 
-    @media (max-width: 800px){
-        width: 380px;
+    @media (max-width: 732px){
+        width: 340px;
         height: 150px;
     }
     &:hover{
@@ -52,7 +52,7 @@ const Details = styled.div`
 `;
 
 const Title = styled.div`
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 600;
     color: ${({theme}) => theme.text_secondary};
     overflow: hidden;
