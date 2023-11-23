@@ -27,7 +27,7 @@ const Title = styled.div`
     font-size: 42px;
     font-weight: 600;
     text-align: center;
-    margin-top: 40px;
+    margin-top: 70px;
     margin-bottom: 20px;
     color: ${({theme}) => theme.text_primary};
     @media (max-width: 768px){
