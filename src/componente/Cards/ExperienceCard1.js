@@ -122,4 +122,4 @@ const ExperienceCard1 = ({ experience1 }) => {
     );
 };
 
-export default ExperienceCard1;
+export default ExperienceCard1

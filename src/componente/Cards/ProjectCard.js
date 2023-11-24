@@ -129,4 +129,4 @@ const ProjectCards = ({ project }) => {
     );
 };
 
-export default ProjectCards;
+export default ProjectCards
