@@ -1,7 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
 
-
 const Description = styled.div`
     width: 100%;
     font-size: 15px;
@@ -47,7 +46,6 @@ const Card = styled.div`
     &:hover ${Span}{
         overflow: visible;
         -webkit-line-clamp: unset;
-
     }
 
     border: 0.2px solid #bad6b8;
@@ -104,12 +102,6 @@ const Date = styled.div`
     }
 `;
 
-const ItemWrapper = styled.div`
-    display: flex;
-    flex-wrap: wrap;
-    gap: 8px;
-`;
-
 const ExperienceCard1 = ({ experience1 }) => {
     return (
         <Card>
@@ -124,11 +116,10 @@ const ExperienceCard1 = ({ experience1 }) => {
             <Description>
                 {experience1?.desc &&
                     <Span>{experience1?.desc}</Span>
-
                 }
             </Description>
         </Card>
-    )
-}
+    );
+};
 
-export default ExperienceCard1
+export default ExperienceCard1;

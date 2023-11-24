@@ -147,6 +147,7 @@ const Navbar = () => {
                 <NavLink href="#experience">Experience</NavLink>
                 <NavLink href="#projects">Projects</NavLink>
                 <NavLink href="#education">Education</NavLink>
+                <NavLink onClick={() => window.location.href="/tumbal"}>Route</NavLink>
             </NavItems>
         </NavContainer>
         {

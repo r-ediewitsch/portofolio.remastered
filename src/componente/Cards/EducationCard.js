@@ -3,27 +3,26 @@ import styled from "styled-components";
 import { education } from "../../data/const";
 
 const Card = styled.div`
-    width: 700px;
+    width: 680px;
     height: 135px;
     background-color: ${({theme}) => theme.card};
     cursor: pointer;
     border-radius: 10px;
-    box-shadow: 0 0 2px 2px rgba(0,0,0,0.4);
+    box-shadow: 0 0 2px 2px rgba(0,0,0,0.2);
     overflow: hidden;
-    transition: all 0.5s ease-in-out;
-    padding: 26px 20px;
+    transition: all 0.3s ease-in-out;
+    padding: 24px 20px;
     display: flex;
     flex-direction: column;
     gap: 14px;
 
-    @media (max-width: 800px){
-        width: 380px;
+    @media (max-width: 732px){
+        width: 340px;
         height: 150px;
     }
     &:hover{
-        transform: translateY(-10px);
-        box-shadow: 0 0 40px 4px rgba(0,0,0,0,6);
-        filter: brightness(1.1);
+        transform: translateY(-5px);
+        box-shadow: 0 0 8px 4px rgba(0,0,0,0.25);
     }
 `;
 
@@ -52,7 +51,7 @@ const Details = styled.div`
 `;
 
 const Title = styled.div`
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 600;
     color: ${({theme}) => theme.text_secondary};
     overflow: hidden;
@@ -68,9 +67,6 @@ const Date = styled.div`
     font-weight: 400;
     margin-left: 2px;
     color: ${({theme}) => theme.text_secondary+80};
-    @media (max-width: 768px){
-        font-size: 10px;
-    }
 `;
 
 const Description = styled.div`
