@@ -8,9 +8,9 @@ const Card = styled.div`
     background-color: ${({theme}) => theme.card};
     cursor: pointer;
     border-radius: 10px;
-    box-shadow: 0 0 2px 2px rgba(0,0,0,0.4);
+    box-shadow: 0 0 2px 2px rgba(0,0,0,0.2);
     overflow: hidden;
-    transition: all 0.5s ease-in-out;
+    transition: all 0.3s ease-in-out;
     padding: 24px 20px;
     display: flex;
     flex-direction: column;
@@ -21,9 +21,8 @@ const Card = styled.div`
         height: 150px;
     }
     &:hover{
-        transform: translateY(-10px);
-        box-shadow: 0 0 40px 4px rgba(0,0,0,0,6);
-        filter: brightness(1.1);
+        transform: translateY(-5px);
+        box-shadow: 0 0 8px 4px rgba(0,0,0,0.25);
     }
 `;
 
