@@ -36,16 +36,6 @@ const Title = styled.div`
     }
 `;
 
-const Desc = styled.div`
-    font-size: 18px;
-    max-width: 600px;
-    text-align: center;
-    color: ${({theme}) => theme.text_secondary};
-    @media (max-width: 768px){
-        font-size: 16px;
-    }
-`;
-
 const CardContainer = styled.div`
     display: flex;
     justify-content: center;
@@ -53,7 +43,6 @@ const CardContainer = styled.div`
     flex-wrap: wrap;
     gap: 20px;
 `;
-
 
 const Education = () => {
     return (
@@ -65,8 +54,7 @@ const Education = () => {
                 </CardContainer>
             </Wrapper>
         </Container>
-    
-    )
-}
+    );
+};
 
 export default Education;
